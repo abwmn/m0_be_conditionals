@@ -23,31 +23,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 puts "Is number_teachers less than number_students?", number_teachers < number_students
-# this should print: true
+# this should print: "Is number_teachers less than number_students?" true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
-# this should print: false
+# this should print: "Is number_teachers equal to string_teachers?" false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 puts "Is number_teachers not equal to number_students?", number_teachers != number_students
-# this should print: true
+# this should print: "Is number_teachers equal to string_teachers?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 puts "Is number_students greater than or equal to 20?", number_students >= 20
-# this should print: true
+# this should print: "Is number_students greater than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 puts "Is number_students greater than or equal to 21?", number_students >= 21
-# this should print: false
+# this should print: "Is number_students greater than or equal to 21?" false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 puts "Is number_students lesss than or equal to 20?", number_students <= 20
-# this should print: true
+# this should print: "Is number_students lesss than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 puts "Is number_students less than or equal to 21?", number_students <= 21
-# this should print: true
+# this should print: "Is number_students less than or equal to 21?" true
 
 
 #-------------------
@@ -104,15 +104,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The final line of code evaluates to true, because I interpreted the English phrase
+# "and is a puppy" to check for my own definition of puppy as age being less than 2, 
+# since "puppy" does not refer to a defined variable, but we are given "age" as 1.
