@@ -49,6 +49,7 @@ else
   puts "I don't have enough money for a gumball"
 end
 
+
 #####################
 # Using the variables defined below, write code that will tell you
 # if you have the ingredients to make a pizza. A pizza requires 
