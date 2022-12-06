@@ -52,7 +52,7 @@ end
 #####################
 # Using the variables defined below, write code that will tell you
 # if you have the ingredients to make a pizza. A pizza requires 
-# at least two cups of flour and sauce.
+# at least two cups of flour and sauce. 
 
 # You should be able to change the variables to achieve the following outputs:
 # If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
